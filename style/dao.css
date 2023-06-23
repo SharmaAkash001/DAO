@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-image: url("/Paradise/assets/pexels-andrew-hoo-6456930.jpg");
+    background-size: cover;
+}
+
+/* Navigation Bar */
+.nav-bar {
+    background-color: #000000;
+    height: 70px;
+    color: #ffffff;
+
+}
+
+li img {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+li {
+    float: left;
+}
+
+.nav-head {
+    margin-top: 24px;
+    margin-left: 40px;
+}
+
+.lefts {
+    padding-left: 30px;
+}
+
+/* Nav Button */
+.nav-btn {
+    float: right;
+    margin-right: 30px;
+    margin-top: 20px;
+    height: 27px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 80px;
+    color: #e6d6e6;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 700;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.hero-btn {
+    height: 30px;
+    width: 180px;
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #c60fd7;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Hover */
+button:hover {
+    background-color: #ffffff;
+    border: 2px solid #c60fd7;
+    color: #c60fd7;
+    cursor: pointer;
+}
+
+li:hover {
+    cursor: pointer;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+::selection {
+    color: #c60fd7;
+    background: #000000;
+}
